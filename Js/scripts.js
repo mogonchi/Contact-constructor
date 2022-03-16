@@ -11,9 +11,9 @@ $(document).ready(function() {
         let inputtedFirstName = $('input#new-first-name').val();
         let inputtedLastName = $('input#new-last-name').val();
 
-        $('ul#contacts').append('<li><span class='contact'>' + newContact.firstname + '</span></li>');
+        $('ul#contacts').append('<li><span class="contact">' + newContact.firstname + '</span></li>');
         $('input#new-first-name').val('');
         $('input#new-last-name').val('');
 
     });
-});
+})
